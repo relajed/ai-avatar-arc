@@ -150,7 +150,7 @@ const Home = () => {
     >
       <div className="badge">
         <Image src={buildspaceLogo} alt="buildspace logo" />
-        <p>build with buildspace</p>
+        <p>by arc labs with buildspace</p>
       </div>
     </a>
   </div>
