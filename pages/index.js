@@ -106,12 +106,13 @@ const Home = () => {
   <div className="container">
     <div className="header">
       <div className="header-title">
-        <h1>Arc imagenerator</h1>
+        <h1>ARC IMAGENERATOR</h1>
       </div>
       <div className="header-subtitle">
         <h2>
-          Turn me into anyone you want! Make sure you refer to me as "arc man" in the prompt
+          Construye la imagen que tu quieras con solo un prompt
         </h2>
+        <h3>Convierta al fundador de Arc Labs en un meme usando "arc man" en el prompt</h3>
       </div>
       <div className="prompt-container">
         <input className="prompt-box" value={input} onChange={onChange} />
@@ -142,6 +143,7 @@ const Home = () => {
   </div>
 )}
   </div>
+
   <div className="badge-container grow">
     <a
       href="https://buildspace.so/builds/ai-avatar"
