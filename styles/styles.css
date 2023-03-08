@@ -291,7 +291,7 @@ body {
 @media (max-width: 809px) and (max-width: 600px) {
     .container {
         max-width: 550px;
-        width: 100%;
+        width: 90%;
     }
 
     .header-title h1 {
