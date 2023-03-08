@@ -57,11 +57,21 @@ body {
 }
 
 .header-subtitle h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
     color: rgba(18, 18, 18, 0.75);
+    text-align: center;
+}
+
+.header-subtitle h3 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: rgba(18, 18, 18, 0.75);
+    text-align: center;
 }
 
 .prompt-container {
@@ -251,9 +261,10 @@ body {
 
 .output-content p {
     text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
     white-space: pre-line;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width: 1200px) {
