@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 .root {
@@ -86,7 +86,7 @@ body {
     place-content: flex-start;
     align-items: flex-start;
     background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 16px;
+    border-radius: 10px;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
@@ -134,12 +134,11 @@ body {
     position: relative;
     width: 100%;
 }
-
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: #F32E98;
-    border-radius: 100px;
+    background-color: #fc5c00;
+    border-radius: 50px;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
@@ -312,7 +311,7 @@ body {
     height: 18px;
     border-radius: 50%;
     display: inline-block;
-    border-top: 2px solid #FFF;
+    border-top: 2px solid rgb(0, 0, 0);
     border-right: 2px solid transparent;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
