@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(255, 229, 183);
+    background-color: #eae7e0;
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -38,7 +38,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    color: rgb(17, 17, 17)
+    color: #222222;
 }
 
 .header-title {
@@ -57,11 +57,21 @@ body {
 }
 
 .header-subtitle h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
     color: rgba(18, 18, 18, 0.75);
+    text-align: center;
+}
+
+.header-subtitle h3 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: rgba(18, 18, 18, 0.75);
+    text-align: center;
 }
 
 .prompt-container {
@@ -85,7 +95,7 @@ body {
     border-top-width: 1px;
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgba(127, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.148);
     border-radius: 10px;
     display: flex;
     flex: 0 0 auto;
@@ -105,18 +115,18 @@ body {
     letter-spacing: 0px;
     line-height: 1.6em;
     text-align: start;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 0, 0.75);
     text-decoration: none;
     text-transform: none;
 }
 
 .prompt-box input {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 
 .prompt-box:focus {
-    border-color: rgba(255, 255, 255, 0.75)
+    border-color: rgba(0, 0, 0, 0.75)
 }
 
 
@@ -138,7 +148,9 @@ body {
     place-content: flex-start;
     align-items: flex-start;
     background-color: #fc5c00;
-    border-radius: 50px;
+    border-radius: 15px;
+    border-color: #222222;
+    border-style: solid;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
@@ -163,7 +175,7 @@ body {
 }
 
 .generate p {
-    color: rgb(255, 255, 255);
+    color: #222222;
     margin: 0;
 }
 
@@ -249,9 +261,10 @@ body {
 
 .output-content p {
     text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
     white-space: pre-line;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width: 1200px) {
